@@ -15,7 +15,8 @@ implements a server to retrieve the distance of the robot from the target and th
 
 Also create a launch file to start the whole simulation. Use a parameter to select the size of the averaging window of node (c)
 
-
+![](Drawing1.png)
+> Figure1) The flowchart of the first node
 # Documentation
 ----------------------
 
