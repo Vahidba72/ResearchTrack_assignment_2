@@ -162,6 +162,11 @@ The node will log a message indicating that it is ready to provide the last targ
 ## Usage
 
 The node will log a message indicating that it is ready to calculate the average. The service can be called from other nodes or services to obtain the calculated average distance and velocity.
+It should be noted that the service can be simply called in the terminal by the following line to get the required outputs. I have commented the line related to printing the output so in case you need to know the distance to target and the average velocity simply write the following line in the terminal:
+
+```bash
+rosservice call /average
+```
 
 
 
