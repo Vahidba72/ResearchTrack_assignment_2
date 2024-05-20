@@ -96,6 +96,14 @@ The main folders and files of the `assignment_2_2023` package are as followed:
    ```
 6. Run the launch file using `roslaunch your_package_name assignment1.launch`.
 
+## Jupyter Notebook usage
+
+A jupyter notebook file is added which can simulate node_a using jupyter notebook. The improvements of this code are widgets which are added to get the target X and Y from the user and also buttons which let the user give new targets of cancel the current target. These options improve the user interface of the code. Moreover, for better visual understanding of the code, live plots are added to the code which show the number of reached and cancelled targets. The live position of the robot can also be seen on a seperate plot. In case you need to use the jupyter notebook code for node_a, some modifications are needed in the launch file.
+1. In the launch file, delete the lines which are needed to run node_a, node_b, and node_c.
+2. Run the launch file using `roslaunch your_package_name assignment1.launch`.
+3. run the jupyter notebook code.
+4. follow the instructions given by the code to enter X and Y targets and then push the change button to follow the goal.
+
 # Coding
 ----------------------
 
